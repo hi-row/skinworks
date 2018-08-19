@@ -25,3 +25,5 @@ Podfile.lock
 UserInterfaceState.xcuserstate
 !.gitkeep
 .DS_Store
+# .htaccess .htpasswd
+.ht*
