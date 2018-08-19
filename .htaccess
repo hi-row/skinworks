@@ -1,0 +1,14 @@
+AuthUserFile "/home/skeem/skeem.firebird.jp/public_html/.htpasswd"
+AuthName "Basic authentication."
+AuthType BASIC
+require valid-user
+
+#####phpversion#####
+AddHandler x-httpd-php5.5 .php .phps
+#####end:phpversion#####
+
+#####fastcgi#####
+AddHandler fcgid-script .php .phps
+FCGIWrapper "/home/skeem/skeem.firebird.jp/php/php-cgi" .php
+FCGIWrapper "/home/skeem/skeem.firebird.jp/php/php-cgi" .phps
+#####end:fastcgi#####
