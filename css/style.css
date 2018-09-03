@@ -15807,6 +15807,15 @@ html .page .offset-none {
 	background: #e9c7c1;
 }
 
+[data-current-nav="home"] .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active,	
+[data-current-nav="about"] .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active,
+[data-current-nav="services"] .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active,
+[data-current-nav="products"] .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active,
+[data-current-nav="resources"] .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active,
+[data-current-nav="contacts"] .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active {
+	background: #e9c7c1;
+}
+
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a {
 	position: relative;
 	display: inline-block;
