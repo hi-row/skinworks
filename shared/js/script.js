@@ -20,7 +20,7 @@ var userAgent = navigator.userAgent.toLowerCase(),
 	  isNoviBuilder = false,
 
     plugins = {
-      pointerEvents: isIE < 11 ? "js/pointer-events.min.js" : false,
+      pointerEvents: isIE < 11 ? "shared/js/pointer-events.min.js" : false,
       
       bootstrapTooltip: $("[data-toggle='tooltip']"),
       bootstrapTabs: $(".tabs"),
